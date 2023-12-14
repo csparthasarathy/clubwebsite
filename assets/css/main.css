@@ -59,12 +59,53 @@ h6 {
 }
 
 .mainlogo{
-  width:50px;
+  width:40px;
   height: 50px;
   padding-bottom: 5px;
 }
 .mainlogo1{
   padding-left: 55px;
+}
+
+/*---------student co-ord-------------*/
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
 }
 /*--------------------------------------------------------------
 # Preloader
@@ -138,6 +179,11 @@ section {
 
 .photo {
   padding-left: 260px;
+
+}
+
+.photo1{
+  padding-left: 0px;
 }
 
 @media (min-width: 1280px) {
@@ -145,6 +191,17 @@ section {
     max-width: 80%;
   }
 }
+
+.team-member {
+  flex: 1;
+  margin: 20px;
+  text-align: center;
+}
+.member-img img {
+  width: 350px;
+  height: 350px;
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -272,6 +329,10 @@ section {
 .header .logo h1 span {
   color: var(--color-primary);
   font-weight: 500;
+}
+
+.orange{
+  color: #ff9248;
 }
 
 .header .btn-getstarted,
@@ -2141,6 +2202,7 @@ section {
 
 .team .team-member .member-info {
   padding: 30px 15px;
+  width:250px;
   text-align: center;
   box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.1);
   background: var(--color-white);
